@@ -3,6 +3,14 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      fontFamily: {
+        inter: ["Inter", "sans-serif"],
+        galano: ["Galano Grotesque", "sans-serif"],
+      },
+      fontSize: {
+        sm: "13px",
+      },
+
       colors: {
         primary: {
           100: "#146EB4",
@@ -12,6 +20,7 @@ export default {
           100: "#1E2640",
           200: "#353C53",
           300: "#17B31B",
+          400: "#ffffff1a",
         },
         black: {
           12: "#1A181E",

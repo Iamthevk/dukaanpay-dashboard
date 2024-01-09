@@ -11,7 +11,9 @@ function NavItem({ src, title }: INavProps) {
       }`}
     >
       <img src={src} alt={title} />
-      <p>{title}</p>
+      <p className="text-sm leading-5 font-inter font-medium opacity-80">
+        {title}
+      </p>
     </div>
   );
 }
