@@ -9,6 +9,7 @@ export default {
       },
       fontSize: {
         sm: "13px",
+        "3xl": "32px",
       },
 
       colors: {
