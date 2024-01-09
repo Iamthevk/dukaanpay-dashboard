@@ -1,9 +1,11 @@
+import Layout from "./Layout";
 import Sidebar from "./Sidebar";
 
 function Payouts() {
   return (
-    <div>
+    <div className="w-screen flex">
       <Sidebar />
+      <Layout />
     </div>
   );
 }
