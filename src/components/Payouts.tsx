@@ -1,5 +1,11 @@
+import Sidebar from "./Sidebar";
+
 function Payouts() {
-  return <div>Payouts</div>;
+  return (
+    <div>
+      <Sidebar />
+    </div>
+  );
 }
 
 export default Payouts;
