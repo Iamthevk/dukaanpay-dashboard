@@ -1,4 +1,4 @@
-import image1 from "../assets/Image01.png";
+import image1 from "../assets/image01.png";
 import wallet from "../assets/svg/wallet.svg";
 import chevronDown from "../assets/svg/chevron-down.svg";
 import { Data } from "../utils/data";
