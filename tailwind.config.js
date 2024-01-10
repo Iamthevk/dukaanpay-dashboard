@@ -8,7 +8,7 @@ export default {
         galano: ["Galano Grotesque", "sans-serif"],
       },
       fontSize: {
-        sm: "13px",
+        xsm: "13px",
         "3xl": "32px",
       },
 
@@ -31,6 +31,7 @@ export default {
           85: "#D9D9D9",
           90: "#E6E6E6",
           95: "#F2F2F2",
+          98: "#FAFAFA",
           100: "#FFFFFF",
         },
       },

@@ -31,7 +31,7 @@ function Sidebar() {
       <div className="flex absolute bottom-4 bg-secondary-200 px-3 py-1.5 gap-3 rounded">
         <img src={wallet} alt="wallet" className="p-1.5 bg-secondary-400" />
         <div className="font-inter text-black-100">
-          <p className="text-sm opacity-80">Available Credits</p>
+          <p className="text-xsm opacity-80">Available Credits</p>
           <p className="text-base">222.10</p>
         </div>
       </div>
