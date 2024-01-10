@@ -1,5 +1,9 @@
 import chevronArrow from "../assets/svg/chevron-down-light.svg";
 import Card from "../ui_components/Card";
+import helpIconGray from "../assets/svg/help.svg";
+import helpIconWhite from "../assets/svg/help-white.svg";
+import arrowIconBlue from "../assets/svg/chevron-right-blue.svg";
+import arrowIconWhite from "../assets/svg/chevron-right.svg";
 
 function CardContainer() {
   return (
@@ -18,8 +22,10 @@ function CardContainer() {
           amount="₹2,312.23"
           orders="23 orders"
           titleClass="!text-black-100"
+          Icon={helpIconWhite}
+          rightIcon={arrowIconWhite}
         />
-        <div className="flex absolute justify-between -bottom-6 rounded-lg text-black-95 w-[370px] h-9 items-center font-galano leading-5 font-medium text-xsm box-border bg-primary-200 px-6">
+        <div className="flex absolute justify-between -bottom-6 rounded-lg text-black-95 xxl:w-[370px] md:min-w-[32.2%] h-9 items-center font-galano leading-5 font-medium text-xsm box-border bg-primary-200 px-6">
           <p>Next payout date:</p>
           <p>Today, 04:00PM</p>
         </div>
@@ -31,12 +37,16 @@ function CardContainer() {
           className="bg-black-100 shadow shadow-[#1a181e0a]"
           amountClass="text-black-12"
           orderClass="text-primary-100 "
+          Icon={helpIconGray}
+          rightIcon={arrowIconBlue}
         />
         <Card
           title="Amount Processed"
           amount="₹23,92,312.19"
           className="bg-black-100 shadow shadow-[#1a181e0a] "
           amountClass="text-black-12"
+          Icon={helpIconGray}
+          rightIcon={arrowIconWhite}
         />
       </div>
     </div>

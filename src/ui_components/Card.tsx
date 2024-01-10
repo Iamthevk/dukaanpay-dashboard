@@ -1,5 +1,3 @@
-import helpIcon from "../assets/svg/help-white.svg";
-import rightIcon from "../assets/svg/chevron-right.svg";
 interface ICardProps {
   className?: string;
   title: string;
@@ -8,6 +6,8 @@ interface ICardProps {
   titleClass?: string;
   amountClass?: string;
   orderClass?: string;
+  Icon: string;
+  rightIcon?: string;
 }
 
 function Card({
@@ -18,6 +18,8 @@ function Card({
   titleClass,
   amountClass,
   orderClass,
+  Icon,
+  rightIcon,
 }: ICardProps) {
   return (
     <>
@@ -28,7 +30,7 @@ function Card({
           <p className={`whitespace-nowrap text-black-30 ${titleClass}`}>
             {title}
           </p>
-          <img src={helpIcon} alt="helpIcon" className="w-3.5 h-3.5" />
+          <img src={Icon} alt="helpIcon" className="w-3.5 h-3.5" />
         </div>
         <div className="flex justify-between text-black-100">
           <p className={`text-3xl ${amountClass}`}>{amount}</p>

@@ -15,7 +15,7 @@ function Input({ className, inputClassName, placeHolder }: InputProps) {
       <input
         type="text"
         placeholder={placeHolder}
-        className={`w-full rounded-md text-black-50 bg-black-95 outline-none ${inputClassName}`}
+        className={`w-full rounded-md text-black-50 bg-black-95 outline-none font-galano ${inputClassName}`}
       />
     </div>
   );
